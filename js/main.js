@@ -129,7 +129,7 @@ function Circle(x, y, dx, dy, radius, color) {
     	}
     	
     } else if (this.radius > this.minRadius) {
-    	this.radius -= .10;
+    	this.radius -= .15;
     }
 
     this.draw();
